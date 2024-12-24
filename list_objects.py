@@ -16,7 +16,7 @@ def list_object_keys(client, bucket, prefix=""):
             keys.append(content["Key"])
     return keys
 
-
+if __name__ == '__main__':
 s3 = boto3.client('s3') 
 
 # for api's always use the latest version documented on the documentation pages
