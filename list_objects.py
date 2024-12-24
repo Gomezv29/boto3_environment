@@ -17,16 +17,16 @@ def list_object_keys(client, bucket, prefix=""):
     return keys
 
 if __name__ == '__main__':
-s3 = boto3.client('s3') 
+    s3 = boto3.client('s3') 
 
 # for api's always use the latest version documented on the documentation pages
 
 #response = s3.list_objects_v2(Bucket="vgomez-boto3-12242024") #Prefix="folderhere") will list anything nested under the folder named
 
-response = list_object_keys(s3, "vgomez-boto3-12242024",)
+    response = list_object_keys(s3, "vgomez-boto3-12242024",)
 
-response = filter_objects_extension(s3, "vgomez-boto3-12242024", ".txt")
+    response = filter_objects_extension(s3, "vgomez-boto3-12242024", ".txt")
 
 #extension = ".txt"
 
-print(response)
+    print(response)
