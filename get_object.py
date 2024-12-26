@@ -9,4 +9,4 @@ response = s3.get_object(Bucket=bucket, Key=key)
 object_content = response['Body'].read()
 contents= object_content.decode('utf-8')
 
-print(content)
+print(contents)
