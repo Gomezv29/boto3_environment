@@ -11,3 +11,7 @@ association = ec2.associate_route_table(
 )
 
 print(association["AssociationId"])
+
+# In the boto3 documentation you can find the code under:
+#  ec2 documents
+#        'associate_route_table'
