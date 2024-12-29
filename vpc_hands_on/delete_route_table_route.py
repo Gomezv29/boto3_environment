@@ -21,7 +21,7 @@ ec2.delete_route(
 
 # Deletion Route
 # Delete association between Internet Gateway and Route Table
-#     Internet Gateway
+#     Dettaching Internet Gateway from VPC
 #           Delete association between Route Table and Subnet
 #                Route Table
 #                    Subnet
