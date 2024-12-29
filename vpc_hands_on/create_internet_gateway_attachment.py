@@ -1,7 +1,7 @@
 import boto3
 
-internet_gateway_id = 'igw-0b021a77cfb2c1d04'
-vpc_id = 'vpc-0004bf5a5c89eceb7'
+internet_gateway_id = 'igw-0213f07d275e74bbb'
+vpc_id = 'vpc-01143858d90013a1d'
 
 ec2 = boto3.client('ec2')
 

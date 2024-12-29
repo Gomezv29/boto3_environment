@@ -1,7 +1,7 @@
 import boto3
 
-route_table_id = 'rtb-0ae46ff95404a8e1c'
-internet_gateway_id = 'igw-0b021a77cfb2c1d04'
+route_table_id = 'rtb-0342e1bdef9af6e1a'
+internet_gateway_id = 'igw-0213f07d275e74bbb'
 
 ec2 = boto3.client('ec2')
 
